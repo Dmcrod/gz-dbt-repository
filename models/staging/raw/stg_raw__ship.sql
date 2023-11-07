@@ -11,7 +11,7 @@ renamed as (
     select
         orders_id,
         shipping_fee,
-        logcost AS log_cost,
+        logcost as log_cost,
         ship_cost
 
     from source
