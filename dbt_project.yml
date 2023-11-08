@@ -41,4 +41,4 @@ models:
     Mart:
       materialized: table
       finance:
-        schema: dbt_drodrigues
+        schema: finance
