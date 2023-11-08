@@ -50,3 +50,91 @@ sources:
             tests:
               - unique
               - not_null
+
+      - name: adwords
+        identifier: raw_gz_adwords
+        description: adwords of greenweez
+        columns:
+          - name: date_date
+            description: the date of purchase
+          - name: paid_source
+            description: source of payment
+          - name: campaign_key
+            description: campaign code
+          - name: camPGN_name
+            description: name of the campaign
+          - name: ads_cost
+            description: cost of the ads
+          - name: impression
+            description: no idea
+          - name: click
+            description: number of clicks
+            tests:
+              - unique
+              - not_null
+
+      - name: bing
+        identifier: raw_gz_bing
+        description: bing for greenweez
+        columns:
+          - name: date_date
+            description: the date of purchase
+          - name: paid_source
+            description: source of payment
+          - name: campaign_key
+            description: campaign code
+          - name: camPGN_name
+            description: name of the campaign
+          - name: ads_cost
+            description: cost of the ads
+          - name: impression
+            description: no idea
+          - name: click
+            description: number of clicks
+            tests:
+              - unique
+              - not_null
+
+      - name: criteo
+        identifier: raw_gz_criteo
+        description: criteo for greenweez
+        columns:
+          - name: date_date
+            description: the date of purchase
+          - name: paid_source
+            description: source of payment
+          - name: campaign_key
+            description: campaign code
+          - name: camPGN_name
+            description: name of the campaign
+          - name: ads_cost
+            description: cost of the ads
+          - name: impression
+            description: no idea
+          - name: click
+            description: number of clicks
+            tests:
+              - unique
+              - not_null
+
+      - name: facebook
+        identifier: raw_gz_facebook
+        description: facebook for greenweez
+        columns:
+          - name: date_date
+            description: the date of purchase
+          - name: paid_source
+            description: source of payment
+          - name: campaign_key
+            description: campaign code
+          - name: camPGN_name
+            description: name of the campaign
+          - name: ads_cost
+            description: cost of the ads
+          - name: impression
+            description: no idea
+          - name: click
+            description: number of clicks
+            tests:
+              - unique
+              - not_null
